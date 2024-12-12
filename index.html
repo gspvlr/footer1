@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Footer Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/footer.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script defer src="script.js" defer></script>
+</head>
+<body>
+	<!--Começo Header-->
+	<header>
+        <nav id="navbar">
+			<a href="index.html" id="nav_logo"> 
+                <img src="/src/images/logo.png" alt="eleganciaecrochet" />
+                ELEGÂNCIA & CROCHET</a>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Sobre</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank">Peça aqui</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Produtos</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank">Peça aqui</a>
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    JUST
+                    <span>CROCHET</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit ut aliquam, purus sit amet
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="https://www.instagram.com/eleganciaecrochet/following/" class="btn-default" target="_blank">
+                        Ver Produtos
+                    </a>
+
+                    <a href="tel:+55549992121535" target="_blank" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (54) 99212-1535
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/eleganciaecrochet/following/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+           
+        </section>
+		<!--Fim Header-->
+		<!--Começo Menu-->
+        <section id="menu">
+            <h2 class="section-title">Produtos</h2>
+            <h3 class="section-subtitle">Nossos produtos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/one.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sousplat de crochê redondo
+                    </h3>
+
+                    <span class="dish-description">
+                        Peça disponível para encomenda! 📦
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/one2.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sousplat de crochê redondo
+                    </h3>
+
+                    <span class="dish-description">
+                        Peça disponível para encomenda! 📦
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/tree.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sousplat de crochê redondo
+                    </h3>
+
+                    <span class="dish-description">
+                        Peça disponível para encomenda! 📦
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/four.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+		<!--Fim Menu-->
+
+		<!--Part 2 Menu-->
+		<section id="menu">
+            <h2 class="section-title" >Está pensando em dar um presente para alguém especial?</h2>
+            <h3 class="section-subtitle">Aqui temos o presente ideal</h3>
+
+            <div id="dishes">
+              
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/namo.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Chaveiro de Coração
+
+                    </h3>
+
+                    <span class="dish-description">
+                        Feitos com amor e carinho em crochê, são perfeitos para presentear namorados, amigas, familiares ou até mesmo você mesma!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(1+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$2,00</h4>
+                        <button class="btn-default" >
+
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/namo2.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Chaveiro de Coração
+                    </h3>
+
+                    <span class="dish-description">
+                        Feitos com amor e carinho em crochê, são perfeitos para presentear namorados, amigas, familiares ou até mesmo você mesma!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(1+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$2,00</h4>
+                        <button class="btn-default" >
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/namo3.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Chaveiro de Coração
+                    </h3>
+
+                    <span class="dish-description">
+                        Feitos com amor e carinho em crochê, são perfeitos para presentear namorados, amigas, familiares ou até mesmo você mesma!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(1+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$2,00</h4>
+                        <button class="btn-default" >
+                            <a href="https://api.whatsapp.com/send/?phone=5554992121535&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!--Fim Part 2 Menu-->
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Sobre Mim
+                </h2>
+                <h3 class="section-subtitle">
+                    Quem sou eu e como criei a ELEGÂNCIA & CROCHET
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/ketlyn.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p class="name">
+                                Ketlyn Silvana Tives
+                                <span class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                💜✨Olá, pessoal! Sou a <span class="name-test">Ketlyn</span>, tenho 18 anos e estou super empolgada em apresentar a <span class="name-test2">“ELEGÂNCIA & CROCHET”</span>! 
+								Sempre amei artesanato e sonhei em criar coisas incríveis com as minhas próprias mãos. 
+								Aqui, vocês vão encontrar peças únicas e cheias de amor. Venham comigo nessa jornada!✨💜
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    <a href="">Ver mais sobre a loja</a>
+                </button>
+            </div>
+        </section>
+    </main>
+  
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+				<img src="/src/footer/logo-footer.png" alt="logo" class="logo">
+				<h4>ELEGÂNCIA & CROCHET</h4>
+  	 			
+  	 		</div>
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>Me Contate</h4>
+  	 			<ul>
+  	 				<li>
+						<a href="" class="material-symbols-outlined"> <img src="/src/footer/map-pin.svg" alt="lacation"> 
+						Rua 123 , Caxias do Sul, RS</a>
+					</li>
+  	 				<li><a href="#"class="material-symbols-outlined"><img src="/src/footer/phone-call.svg" alt="call">
+					(51) 99999-9999</a>
+					</li>
+  	 				<li><a href="#"class="material-symbols-outlined"><img src="./src/footer/mail.svg" alt="mail">
+						teste@gmail.com</a>
+					</li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/eleganciaecrochet/" target="_blank"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+</body>
+</html>
